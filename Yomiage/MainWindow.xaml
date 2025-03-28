@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window
+    x:Class="Yomiage.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Yomiage"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Title="Yomiage">
+
+
+    <NavigationView Grid.Row="1" x:Name="navView" PaneDisplayMode="LeftCompact" IsBackButtonVisible="Collapsed" ItemInvoked="navView_ItemInvoked" IsSettingsVisible="False" >
+        <NavigationView.MenuItems>
+            <NavigationViewItem Content="Browser" Tag="web">
+                <NavigationViewItem.Icon>
+                    <SymbolIcon Symbol="Globe" />
+                </NavigationViewItem.Icon>
+            </NavigationViewItem>
+            <NavigationViewItem Content="Audio" Tag="audio">
+                <NavigationViewItem.Icon>
+                    <SymbolIcon Symbol="Play" />
+                </NavigationViewItem.Icon>
+            </NavigationViewItem>
+        </NavigationView.MenuItems>
+        <Frame x:Name="contentFrame"/>
+        <NavigationView.PaneFooter>
+            <NavigationViewItem x:Name="footerItem" Content="About"
+                                Tapped="FooterItem_Tapped">
+                <NavigationViewItem.Icon>
+                    <SymbolIcon Symbol="Help"/>
+                </NavigationViewItem.Icon>
+            </NavigationViewItem>
+        </NavigationView.PaneFooter>
+    </NavigationView>
+</Window>

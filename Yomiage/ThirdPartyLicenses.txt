@@ -1,0 +1,46 @@
+﻿Third-Party Licenses
+
+1.  HtmlAgilityPack
+    License: MIT
+    Copyright: Copyright © ZZZ Projects Inc.
+    URL: https://licenses.nuget.org/MIT
+
+
+2.  MeCab.DotNet
+    License: GPL-2.0-only OR LGPL-2.1-only
+    Copyright: Copyright (c) 2001-2008, Taku Kudo; Copyright (c) 2004-2008, Nippon Telegraph and Telephone Corporation; Copyright (c) 2015 Tsuyoshi Komuta; Portions Copyright (c) 2019-2021 Kouji Matsui
+    URL: https://licenses.nuget.org/GPL-2.0-only%20OR%20LGPL-2.1-only
+
+
+3.  Microsoft.Web.WebView2
+    License: Microsoft Software License Terms
+    Copyright: © Microsoft Corporation. All rights reserved.
+    URL: https://www.nuget.org/packages/Microsoft.Web.WebView2/1.0.3124.44/License
+
+
+4.  Microsoft.Windows.SDK.BuildTools
+    License: Microsoft Software License Terms
+    Copyright: © Microsoft Corporation. All rights reserved.
+    URL: https://aka.ms/WinSDKLicenseURL
+
+
+5.  Microsoft.WindowsAppSDK
+    License: Microsoft Software License Terms
+    Copyright: © Microsoft Corporation. All rights reserved.
+    URL: https://www.nuget.org/packages/Microsoft.WindowsAppSDK/1.7.250310001/License
+
+
+6.  NAudio
+    License: MIT
+    Copyright: © Mark Heath 2023
+    URL: https://www.nuget.org/packages/NAudio/2.2.1/License
+
+7.  voicevox_core
+    License: MIT
+    Copyright: © Hiroshiba Kazuyuki
+    URL: https://github.com/VOICEVOX/voicevox_core/blob/main/LICENSE
+
+8.  VoicevoxCoreSharp
+    License: MIT
+    Copyright: 2023 yamachu
+    URL: https://github.com/yamachu/VoicevoxCoreSharp/blob/main/LICENSE

@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Yomiage (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "Yomiage (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
