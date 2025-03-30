@@ -59,7 +59,7 @@ namespace Yomiage
         }
 
         private async void FooterItem_Tapped(object sender, TappedRoutedEventArgs e) {
-            Uri uri = new Uri("https://www.google.com");
+            Uri uri = new("https://github.com/test-account-abc/yomiage/blob/main/Yomiage/ThirdPartyLicenses.txt");
             await Launcher.LaunchUriAsync(uri);
         }
     }

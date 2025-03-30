@@ -1,8 +1,20 @@
-# アプリのビルド手順
+# アプリのビルド＆実行手順
 
 ## 1. VisualStudio をインストール
 
-[ここ](https://visualstudio.microsoft.com/ja/downloads/)からインストール
+- [ここ](https://visualstudio.microsoft.com/ja/downloads/)からインストール
+- `Visual Studio Community 2022` > `変更`から以下のコンポーネントをインストール
+  - `ワークロード`
+    - WinUI アプリケーション開発
+  - `インストールの詳細` > `WinUI アプリケーション開発` > `オプション`
+    - C++ WinUI アプリ開発ツール
+    - ユニバーサル Windows プラットフォーム ツール
+    - C++(v143) ユニバーサル Windows プラットフォーム ツール
+    - C++(v142) ユニバーサル Windows プラットフォーム ツール
+    - C++(v141) ユニバーサル Windows プラットフォーム ツール
+    - Windows 11 SDK (10.0.26100.0)
+    - Windows 11 SDK (10.0.22621.0)
+    - Windows 11 SDK (10.0.22000.0)
 
 ## 2. VoicevoxCoreSharp をインストール
 
@@ -26,3 +38,9 @@ dotnet build
   - ```bash
     ./download-windows-x64.exe --version 0.15.0-preview.15
     ```
+
+## 4. アプリのビルド＆実行
+
+- VisualStudio でプロジェクト(Yomiage.sln)を開く
+- `ビルド` > `パッケージ Yomiage`をクリック
+- `bin/Debug/net8.0-windows10.0.19041.0/win-x64/Yomiage.exe`を実行
