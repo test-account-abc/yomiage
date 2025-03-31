@@ -44,3 +44,8 @@
     License: MIT
     Copyright: 2023 yamachu
     URL: https://github.com/yamachu/VoicevoxCoreSharp/blob/main/LICENSE
+
+9. OpenJTalk
+   License: Modified BSD license
+   Copyright: Copyright (c) 2008-2017 Nagoya Institute of Technology
+   URL: https://github.com/r9y9/open_jtalk
